@@ -62,6 +62,12 @@ Check the placeholder test examples to get started :
 
 This files are just an example, feel free to remove it
 
+## All resource references : 
+- https://www.backblaze.com/
+- http://bluebirdjs.com/docs/getting-started.html
+- https://www.npmjs.com/package/multer
+- https://axios-http.com/vi/docs/intro
+
 -   Run `yarn test` or `npm test` to execute all tests.
 -   Run `yarn test:watch` or `npm test:watch` to run tests in watch (loop) mode.
 -   Run `yarn test:coverage` or `npm test:coverage` to see the tests coverage report.
