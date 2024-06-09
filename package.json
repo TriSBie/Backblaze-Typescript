@@ -1,7 +1,6 @@
 {
-  "name": "nodejs-typescript-template",
+  "name": "backblaze-b2-nodejs",
   "version": "1.322.0",
-  "description": "A template for a nodejs application, using typescript",
   "main": "dist/src/index.js",
   "author": "",
   "license": "MIT",
@@ -16,9 +15,22 @@
     "test:coverage": "jest --coverage"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "@types/express": "^4.17.21",
+    "@types/multer": "^1.4.11",
+    "axios": "^1.7.2",
+    "backblaze-b2": "^1.7.0",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
+    "@types/backblaze-b2": "^1.5.6",
+    "@types/bluebird": "^3.5.42",
+    "@types/cors": "^2.8.17",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.14.2",
     "@typescript-eslint/eslint-plugin": "^7.12.0",
